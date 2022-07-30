@@ -12,10 +12,12 @@ int getsum(int a[], int n) {
 }
 
 int main() {
-    int a[5], n;
+    int n;
 
-    cout<<"size of array: ";
+    cout<<"enter number of elements:  ";
     cin>>n;
+
+    int *a = new int(n); //dynamic allocation of array
 
     cout<<"array elements: ";
     for(int i = 0; i < n; i++) {
