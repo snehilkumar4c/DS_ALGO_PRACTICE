@@ -14,6 +14,8 @@ int gcd(int a, int b) {
     cout<<res;
 }
 
+// time complexity for this function is O(log(min(a,b)))
+
 int main() {
     int a,b;
 
