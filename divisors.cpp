@@ -40,7 +40,7 @@ void divisors(int n) {
         }
     }
 }
-
+// time complexity of this function is O(sqrt(n))
 int main() {
     int n;
 
