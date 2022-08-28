@@ -42,7 +42,9 @@ using namespace std;
 //     }
 // }
 
-// more optimized implementation
+// more shorter and optimized implementation
+// time complexity for this sieve function is O(log(log(n)))
+// also we can say that above mentioned time complexity is linear as log(log(n)) grows to be very slower.
 void sieve(int n) {
     vector<bool>isPrime(n + 1, true);
 
