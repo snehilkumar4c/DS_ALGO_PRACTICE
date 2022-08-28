@@ -1,23 +1,41 @@
 #include<iostream>
-
+#include<string.h>
 using namespace std;
 
-int power(int x, int n) {
-    int res = 1;
-
-    for(int i = 1; i <= n; i++) {
-        res = res * x;
+int fact(int n) {
+    if(n == 0) {
+        return 1;
     }
-    return res;
+
+    return n * fact(n - 1);
+}
+
+int factdigits(int n) {
+    int res = 0;
+    int c = 0;
+
+    res = fact(n);
+
+    int *len = new int(res);
+
+    for(int i = 0; i < len; i++) {
+
+    }
+
+    while(len > 0) {
+        c++;
+        len--;
+    }
+    cout<<c;
 }
 
 int main() {
 
-    int a,n;
+    int n;
 
-    cout<<"enter a number and it's computing power: ";
-    cin>>a>>n;
+    cout<<"enter the number: ";
+    cin>>n;
 
-    cout<<"the result is: "<<power(a,n);
+    factdigits(n);
     return 0;
 }
