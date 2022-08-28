@@ -2,23 +2,22 @@
 
 using namespace std;
 
-int zeroes(int n) {
-    int res =0;
+int power(int x, int n) {
+    int res = 1;
 
-    for(int i = 5; i <= n; i = i * 5) {
-        res = res + (n / i);
+    for(int i = 1; i <= n; i++) {
+        res = res * x;
     }
     return res;
 }
 
 int main() {
 
-    int n; 
+    int a,n;
 
-    cout<<"enter a number: ";
-    cin>>n;
+    cout<<"enter a number and it's computing power: ";
+    cin>>a>>n;
 
-    cout<<"no of trailing zeroes of a factorial are: "<<zeroes(n);
-
+    cout<<"the result is: "<<power(a,n);
     return 0;
 }
