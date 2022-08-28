@@ -23,7 +23,7 @@ int prime(int a) {
             }
         }
     }
-    cout<<"is a prime";
+    // cout<<"is a prime";
 }
 
 // int prime(int a) {
@@ -47,3 +47,6 @@ int main() {
     prime(a);
     return 0;
 }
+
+// there should not be a printing statement after the last condition statement
+// hence it should be avoided.

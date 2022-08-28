@@ -73,3 +73,5 @@ int main() {
 // Vectors can resize itself automatically when an element is inserted or deleted depending on the need of the task to be executed.
 // Syntax:
         // vector< object_type > variable_name;
+// Also vectors might contain non-seqeuntial data, which means that they might be 
+// in sorted order or vice-versa. Also they may contain jumbled order.
