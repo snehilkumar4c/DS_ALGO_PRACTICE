@@ -41,13 +41,13 @@ int main() {
 
     // unsigned int has a range from 0 to ((2^n)-1)
     
-    // unsigned int x = 1;
+    unsigned int x = 1;
 
-    // cout<<(~x)<<"\n";
+    cout<<(~x)<<"\n";
 
-    // x = 5;
+    x = 5;
 
-    // cout<<(~x)<<"\n";
+    cout<<(~x)<<"\n";
 
     // signed int has range from (-2 ^ n) to ((2 ^ n) -1) 
     // here n represents the compiler size 
